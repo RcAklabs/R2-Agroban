@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;600;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+
+  --color-agro-neon: #48C559;
+  --color-agro-forest: #0B5E33;
+  --color-agro-emerald: #18A558;
+  --color-agro-light: #F8F9FA;
+  --color-agro-mustard: #F3B229;
+  --color-agro-navy: #0E437A;
+}
+
+html {
+  /* Desactivamos el smooth scroll nativo para usar nuestro script exacto de 700ms */
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #1a1a1a;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
